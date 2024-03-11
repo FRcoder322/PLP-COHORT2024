@@ -2,9 +2,9 @@ Basic Information:
 
 Project Name: Nitrate Runoff Reduction Project
 Project Description: Aiming to minimize and manage nitrates runoff in accordance with SDG goals for sustainable water resources.
-Project Sponsor: [Name of Sponsor]
-Project Manager: [Name of Project Manager]
-Start Date: [Specific Start Date]
+Project Sponsor: N/A
+Project Manager: Florence Rotich
+Start Date: March 2024
 Approval: Space for the project sponsor to sign upon official approval.
 Deliverables:
 
