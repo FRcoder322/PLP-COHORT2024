@@ -7,57 +7,87 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
 
-        nav {
+        header {
             background-color: #333;
+            padding: 20px;
+            color: #fff;
+            text-align: center;
+        }
+
+        .introduction {
+            background-color: #f4f4f4;
+            padding: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .skills {
+            background-color: #eee;
+            padding: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills li {
+            border: 1px solid #ccc;
             padding: 10px;
+            margin-bottom: 10px;
         }
 
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-        }
-
-        section {
+        .contact {
+            background-color: #333;
+            padding: 20px;
+            color: #fff;
+            text-align: center;
             margin-top: 20px;
         }
 
-        h2 {
-            color: #333;
+        @media (max-width: 768px) {
+            .introduction,
+            .skills,
+            .contact {
+                padding: 10px;
+            }
         }
     </style>
 </head>
 <body>
 
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-    </nav>
+<header>
+    <h1>Florence Rotich</h1>
+</header>
 
-    <section id="home">
-        <h2>Home</h2>
-        <p>Welcome to my portfolio website. Explore the sections to learn more about me and my projects.</p>
-    </section>
+<section class="introduction">
+    <h2>Introduction</h2>
+    <p>Hello, I'm Florence Rotich. I am a web developer passionate about creating awesome websites.</p>
+</section>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a passionate web developer with a focus on creating user-friendly and engaging web applications.</p>
-    </section>
+<section class="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>React.js</li>
+        <li>Flutter</li>
+    </ul>
+</section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>Check out some of my projects:</p>
-        <ul>
-            <li><a href="#project1">Project 1</a></li>
-            <li><a href="#project2">Project 2</a></li>
-            <li><a href="#project3">Project 3</a></li>
-        </ul>
-    </section>
+<footer class="contact">
+    <h2>Contact</h2>
+    <p>Email: nenorotich3@gmail.com</p>
+    <p>Social Media: <a href="#">Twitter</a>, <a href="#">LinkedIn</a>, <a href="#">GitHub</a></p>
+</footer>
 
 </body>
 </html>
-
